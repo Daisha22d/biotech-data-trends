@@ -10,7 +10,7 @@ CREATE TABLE clinical_trials (
 CREATE TABLE sponsors (
   sponsor_id TEXT,
   sponsor_name TEXT,
-  country TEXT
+  sponsor_type TEXT
 );
 
 CREATE TABLE funding (
