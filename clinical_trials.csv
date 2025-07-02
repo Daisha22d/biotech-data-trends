@@ -1,0 +1,101 @@
+trial_id,condition,phase,status,start_date,sponsor_id
+TR0001,Obesity,Phase III,Terminated,2020-03-26,SP012
+TR0002,COVID-19,Phase I,Ongoing,2022-03-08,SP012
+TR0003,Breast Cancer,Phase II,Ongoing,2023-04-04,SP005
+TR0004,Alzheimer's,Phase III,Ongoing,2021-11-16,SP007
+TR0005,Obesity,Phase II,Ongoing,2021-03-04,SP004
+TR0006,Obesity,Phase I,Terminated,2021-05-03,SP006
+TR0007,Breast Cancer,Phase III,Ongoing,2019-02-05,SP013
+TR0008,Alzheimer's,Phase I,Completed,2019-10-02,SP020
+TR0009,COVID-19,Phase II,Completed,2019-04-05,SP015
+TR0010,Lung Cancer,Phase I,Completed,2020-08-12,SP003
+TR0011,Alzheimer's,Phase III,Terminated,2019-04-15,SP008
+TR0012,Breast Cancer,Phase III,Ongoing,2020-11-11,SP020
+TR0013,Obesity,Phase II,Ongoing,2022-08-21,SP016
+TR0014,COVID-19,Phase I,Ongoing,2023-09-17,SP013
+TR0015,Alzheimer's,Phase III,Terminated,2024-03-27,SP018
+TR0016,Lung Cancer,Phase II,Completed,2019-07-17,SP010
+TR0017,Lung Cancer,Phase III,Completed,2024-10-21,SP019
+TR0018,Diabetes,Phase III,Ongoing,2022-12-05,SP017
+TR0019,Diabetes,Phase I,Completed,2023-09-06,SP019
+TR0020,Breast Cancer,Phase III,Completed,2018-08-14,SP005
+TR0021,Alzheimer's,Phase I,Terminated,2020-03-08,SP009
+TR0022,Alzheimer's,Phase III,Terminated,2024-05-20,SP012
+TR0023,Obesity,Phase II,Terminated,2020-08-17,SP001
+TR0024,Obesity,Phase III,Terminated,2022-02-13,SP001
+TR0025,Obesity,Phase I,Ongoing,2019-03-29,SP015
+TR0026,Diabetes,Phase I,Terminated,2020-03-26,SP002
+TR0027,Alzheimer's,Phase II,Completed,2019-10-21,SP016
+TR0028,Alzheimer's,Phase III,Ongoing,2019-07-01,SP008
+TR0029,Lung Cancer,Phase III,Completed,2021-04-30,SP013
+TR0030,Diabetes,Phase II,Completed,2018-01-17,SP001
+TR0031,COVID-19,Phase III,Completed,2021-05-28,SP016
+TR0032,Diabetes,Phase III,Terminated,2024-01-15,SP007
+TR0033,COVID-19,Phase I,Terminated,2024-11-29,SP005
+TR0034,Lung Cancer,Phase III,Ongoing,2020-12-05,SP003
+TR0035,Breast Cancer,Phase III,Ongoing,2023-11-17,SP012
+TR0036,Alzheimer's,Phase II,Terminated,2022-11-04,SP016
+TR0037,Lung Cancer,Phase II,Completed,2020-11-26,SP019
+TR0038,Alzheimer's,Phase I,Ongoing,2024-05-16,SP005
+TR0039,Obesity,Phase III,Terminated,2024-12-19,SP014
+TR0040,Breast Cancer,Phase III,Terminated,2018-10-29,SP005
+TR0041,Breast Cancer,Phase III,Terminated,2018-06-30,SP015
+TR0042,Lung Cancer,Phase I,Completed,2019-08-30,SP017
+TR0043,Breast Cancer,Phase I,Terminated,2019-12-01,SP014
+TR0044,COVID-19,Phase II,Terminated,2020-09-19,SP020
+TR0045,Breast Cancer,Phase I,Terminated,2021-02-13,SP005
+TR0046,Alzheimer's,Phase III,Terminated,2018-07-10,SP012
+TR0047,Alzheimer's,Phase III,Ongoing,2024-04-19,SP016
+TR0048,Alzheimer's,Phase I,Ongoing,2020-09-07,SP016
+TR0049,Alzheimer's,Phase III,Terminated,2023-06-30,SP007
+TR0050,COVID-19,Phase III,Completed,2021-03-30,SP004
+TR0051,Diabetes,Phase I,Ongoing,2018-05-08,SP001
+TR0052,Obesity,Phase I,Terminated,2023-08-28,SP005
+TR0053,Lung Cancer,Phase III,Ongoing,2022-12-22,SP010
+TR0054,Alzheimer's,Phase III,Ongoing,2022-10-25,SP005
+TR0055,Breast Cancer,Phase III,Completed,2019-07-24,SP004
+TR0056,Alzheimer's,Phase II,Terminated,2021-09-08,SP002
+TR0057,Breast Cancer,Phase II,Terminated,2023-03-11,SP020
+TR0058,Obesity,Phase II,Completed,2019-09-18,SP010
+TR0059,Obesity,Phase I,Completed,2022-08-14,SP019
+TR0060,Obesity,Phase II,Terminated,2018-06-04,SP001
+TR0061,Breast Cancer,Phase I,Terminated,2024-12-12,SP005
+TR0062,Alzheimer's,Phase I,Completed,2021-11-10,SP013
+TR0063,Obesity,Phase II,Ongoing,2020-02-24,SP004
+TR0064,COVID-19,Phase II,Ongoing,2018-09-03,SP016
+TR0065,Breast Cancer,Phase II,Completed,2022-02-09,SP016
+TR0066,Breast Cancer,Phase III,Ongoing,2022-09-02,SP002
+TR0067,Alzheimer's,Phase II,Completed,2019-06-22,SP017
+TR0068,Breast Cancer,Phase III,Ongoing,2023-03-06,SP020
+TR0069,Breast Cancer,Phase I,Ongoing,2023-01-16,SP012
+TR0070,Obesity,Phase III,Terminated,2020-07-09,SP018
+TR0071,Alzheimer's,Phase II,Terminated,2024-09-21,SP003
+TR0072,Obesity,Phase I,Ongoing,2019-06-09,SP001
+TR0073,Obesity,Phase I,Ongoing,2022-03-10,SP001
+TR0074,Alzheimer's,Phase I,Terminated,2018-02-05,SP019
+TR0075,Lung Cancer,Phase III,Terminated,2019-11-16,SP011
+TR0076,Obesity,Phase II,Terminated,2018-01-20,SP005
+TR0077,COVID-19,Phase I,Completed,2024-06-26,SP012
+TR0078,COVID-19,Phase I,Ongoing,2019-02-04,SP003
+TR0079,Breast Cancer,Phase I,Terminated,2020-08-29,SP001
+TR0080,COVID-19,Phase III,Ongoing,2023-03-22,SP001
+TR0081,Breast Cancer,Phase III,Completed,2024-11-23,SP008
+TR0082,Lung Cancer,Phase II,Completed,2021-03-12,SP010
+TR0083,Alzheimer's,Phase III,Terminated,2021-01-20,SP011
+TR0084,Alzheimer's,Phase I,Completed,2020-04-13,SP012
+TR0085,Alzheimer's,Phase II,Ongoing,2022-12-29,SP013
+TR0086,COVID-19,Phase I,Terminated,2023-06-06,SP012
+TR0087,Lung Cancer,Phase I,Ongoing,2020-05-03,SP014
+TR0088,COVID-19,Phase III,Ongoing,2018-02-20,SP002
+TR0089,COVID-19,Phase II,Completed,2019-07-29,SP019
+TR0090,Lung Cancer,Phase III,Completed,2021-02-22,SP018
+TR0091,Lung Cancer,Phase III,Completed,2024-01-07,SP003
+TR0092,Lung Cancer,Phase II,Completed,2024-06-19,SP017
+TR0093,Lung Cancer,Phase I,Completed,2024-06-10,SP008
+TR0094,Alzheimer's,Phase I,Terminated,2022-09-12,SP010
+TR0095,Diabetes,Phase II,Ongoing,2019-11-13,SP002
+TR0096,Diabetes,Phase I,Ongoing,2020-04-17,SP019
+TR0097,Lung Cancer,Phase II,Ongoing,2020-12-13,SP009
+TR0098,Diabetes,Phase II,Ongoing,2024-10-27,SP007
+TR0099,Diabetes,Phase III,Completed,2024-04-30,SP004
+TR0100,Lung Cancer,Phase II,Ongoing,2022-05-15,SP018
