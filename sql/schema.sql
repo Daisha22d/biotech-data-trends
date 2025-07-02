@@ -17,5 +17,6 @@ CREATE TABLE funding (
   funding_id TEXT,
   sponsor_id TEXT,
   funding_date TEXT,
+  round TEXT,
   amount_million REAL
 );
