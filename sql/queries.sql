@@ -106,3 +106,9 @@ JOIN funding f ON t.sponsor_id = f.sponsor_id
 WHERE s.sponsor_type = "Biotech"
 GROUP BY t.condition
 ORDER BY total_funding DESC;
+
+-- 7. Distribution of trial phases (Phase I, II, III)
+SELECT phase, COUNT(*) AS num_trials
+FROM trials_2019_2024
+GROUP BY phase
+ORDER BY num_trials DESC;
