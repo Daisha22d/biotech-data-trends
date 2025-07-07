@@ -1,10 +1,10 @@
 -- Biotech Funding by Condition
 
-SELECT t.condition, COUNT(DISTINCT t.trial_id) AS num_trials,
-       SUM(f.amount_million) AS total_funding
-FROM trials_2019_2024 t
-JOIN sponsors s ON t.sponsor_id = s.sponsor_id
-JOIN funding f ON t.sponsor_id = f.sponsor_id
-WHERE s.sponsor_type = "Biotech"
-GROUP BY t.condition
-ORDER BY total_funding DESC;
+condition      num_trials  total_funding
+-------------  ----------  -------------
+Alzheimer's    7           56584.0      
+Lung Cancer    3           24264.0      
+COVID-19       2           16170.0      
+Diabetes       2           16168.0      
+Obesity        1           8082.0       
+Breast Cancer  1           8082.0

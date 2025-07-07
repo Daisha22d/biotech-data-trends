@@ -1,6 +1,10 @@
 -- Top Conditions by Trial Count 
 
-SELECT condition, COUNT(*) AS frequency
-FROM trials_2019_2024
-GROUP BY condition
-ORDER BY frequency DESC;
+condition      frequency
+-------------  ---------
+Alzheimer's    22       
+Lung Cancer    17       
+Obesity        15       
+Breast Cancer  15       
+COVID-19       12       
+Diabetes       8  
