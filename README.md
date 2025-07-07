@@ -1,67 +1,80 @@
-# Mapping Clinical Trends: A SQL Analysis of Trials and Funding
+# 📊 Mapping Clinical Research Trends with a Focus on Biotech Investment (2019–2024)
 
-This project analyzes trends in clinical trial activity and funding using SQL, based on **synthetic data** with focus on 2019-2024. It examines which therapeutic areas received the most research attention, how trial activity varied by sponsor type (including biotech, academic, startup, and pharma), and how funding aligned with clinical trial investments across conditions.
- 
-## Key Research Questions
-1. Which therapeutic areas have the most clinical trials in the past 5 years?
-2. How does clinical trial activity vary across sponsor types?
-3. How does trial activity correlate with biotech funding?
+## 🧠 Summary
 
-## Dataset Overview
-Three synthetic tables were used:
-- `clinical_trials`: Contains trial-level data including condition, phase, status, start date, and sponsor ID
-- `sponsors`: Contains sponsor ID, name, and sponsor type (Academic, Biotech, Startup, Pharma)
-- `funding`: Contains funding events by sponsor ID, amount (in millions), round type, and funding date
+This project began as an exploration of biotech funding and clinical trial activity, aiming to uncover which therapeutic areas received the most investment from biotech sponsors between 2019 and 2024. Using SQL to analyze synthetic clinical trial and funding data, we examined how trial volume and funding varied by sponsor type, therapeutic condition, and trial phase.
 
-## SQL Highlights
-- Filtered trials from the past 5 years (`2019–2024`)
-- Counted trials by therapeutic condition
-- Created a reusable table: `trials_2019_2024`
-- Analyzed trial activity by sponsor type and condition
-- Joined funding data to assess the relationship between biotech investment and trial volume
+While the initial focus was biotech-specific, the analysis revealed broader trends across sponsor types. Academic institutions led in trial volume, followed by biotech and startup firms. Interestingly, biotech companies concentrated their investments most heavily on Alzheimer's research — investing over **$56M** across **7 trials**. Obesity, Lung Cancer, and Diabetes also showed notable activity.
 
-## Key Insights
+This project highlights the value of data-driven analysis in mapping R&D priorities across the clinical trial landscape. It showcases skills in SQL querying, relational database exploration, and data storytelling using Excel dashboards.
 
-- **Alzheimer’s Disease** was the most studied condition with **24 trials**, followed by **Breast Cancer (18)**, **Obesity (17)**, and **Lung Cancer (17)**.
-- **Academic institutions** led sponsor activity with **43 trials**, followed by **Startups (21)** and **Biotech firms (20)**.
-- **Biotech sponsors** invested most heavily in **Alzheimer’s** research, backing **7 trials** with over **$56.6M** in funding.
-- **Phase III trials** were the most common, signaling a mature pipeline across major conditions.
-- **COVID-19** and **Diabetes** also received consistent research focus, often driven by Academic sponsors.
 
 ## 📂 File Structure
+
 biotech-data-trends/
 ├── data/ # CSV files for clinical trials, sponsors, and funding data. All synthetic CSVs.
 │ ├── clinical_trials.csv
 │ ├── funding.csv
 │ └── sponsors.csv
 │
-├── outputs/ # Final outputs or exported result tables (currently empty)
+├── outputs/ 
+│ ├── biotech_funding_by_condition.csv
+│ ├── condition_trial_counts.csv
+│ ├── funding_by_sponsor_type.csv
+│ ├── sponsor_type_trial_counts.csv
+│ └── trial_phase_distribution.csv
 |
 |── sql/ # SQL scripts for schema creation and analysis
 │ ├── schema.sql # Table creation logic
 │ ├── queries.sql # All project queries grouped by research questions
 │
 ├── visuals/ 
-│ └── excel-charts.png
+│ └── Mapping Clinical Trends.pdf
 │
 └── README.md # Project overview and documentation
 
 
----
+ 
+## 🔍 Key Questions Explored
 
-## Tools Used
-
-- **SQLite** for data querying and schema design
-- **Excel** for visualization
-
----
-
-## Future Improvements
-- Add trial location and endpoint data for a more complete picture.
-- Ask more research questions for a deeper dive and understanding.
-- Further analyze phase trials.
+- Which therapeutic areas had the most clinical trials from 2019 to 2024?
+- How does clinical trial activity vary across sponsor types (Biotech, Academic, Pharma, Startup)?
+- How does funding correlate with trial activity in the biotech sector?
 
 ---
+
+## 💡 Key Insights
+
+- **Alzheimer’s** was the top-funded condition among biotech sponsors, receiving over **$56M** across 7 trials.
+- **Academic institutions** led clinical trial activity overall, with **43 trials** between 2019 and 2024.
+- **Biotech sponsors** showed strong activity in Alzheimer’s and Lung Cancer, while **startups** targeted a broader mix of conditions.
+- **Phase III** trials were the most common across all sponsor types, indicating a healthy late-stage pipeline.
+- Despite the biotech focus, **startups and academic sponsors** were highly influential in shaping clinical research trends.
+
+---
+
+## 🛠️ Tools Used
+
+- **SQLite** — SQL queries to join, group, and analyze data
+- **Excel** — Visual dashboards, bar charts, pie charts
+- **VS Code** — SQL scripting, version control with Git
+
+---
+
+## Sample Visuals
+
+You can find visuals in the Excel dashboard
+
+
+## Notes
+
+- All data is **synthetic** and created for academic and portfolio purposes.
+- The project emphasizes **biotech** trends but includes findings across all sponsor types for broader context.
+
+
+## About the Author
+
+This project was developed as part of a data science and analytics portfolio to demonstrate SQL proficiency, data storytelling, and industry insight into clinical research and biotech investment trends.
 
 ## Author
 
