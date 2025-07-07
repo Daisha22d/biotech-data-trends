@@ -1,0 +1,6 @@
+-- Trial Counts by Phase
+
+SELECT phase, COUNT(*) AS num_trials
+FROM trials_2019_2024
+GROUP BY phase
+ORDER BY num_trials DESC;

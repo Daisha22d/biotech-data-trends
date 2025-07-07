@@ -1,0 +1,10 @@
+-- Biotech Funding by Condition
+
+SELECT t.condition, COUNT(DISTINCT t.trial_id) AS num_trials,
+       SUM(f.amount_million) AS total_funding
+FROM trials_2019_2024 t
+JOIN sponsors s ON t.sponsor_id = s.sponsor_id
+JOIN funding f ON t.sponsor_id = f.sponsor_id
+WHERE s.sponsor_type = "Biotech"
+GROUP BY t.condition
+ORDER BY total_funding DESC;

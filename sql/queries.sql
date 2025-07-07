@@ -1,7 +1,5 @@
--- ---------------------------------------------
 -- Clinical Trials Analysis SQL Queries (2019–2024)
 -- Project: Trends in Therapeutic Focus and Biotech Investment
--- ---------------------------------------------
 
 -- 1. Get all data from the past 5 years
 SELECT * FROM clinical_trials

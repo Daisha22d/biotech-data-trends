@@ -1,0 +1,6 @@
+-- Top Conditions by Trial Count 
+
+SELECT condition, COUNT(*) AS frequency
+FROM trials_2019_2024
+GROUP BY condition
+ORDER BY frequency DESC;
